@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_enemy_spitter_alt",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 50,
   "height": 32,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","path":"sprites/spr_enemy_spitter_alt/spr_enemy_spitter_alt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","path":"sprites/spr_enemy_spitter_alt/spr_enemy_spitter_alt.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_alt/spr_enemy_spitter_alt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_alt","path":"sprites/spr_enemy_spitter_alt/spr_enemy_spitter_alt.yy",},"resourceVersion":"1.0","name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_enemy_spitter_alt","path":"sprites/spr_enemy_spitter_alt/spr_enemy_spitter_alt.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_enemy_spitter_alt",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d0bc55eb-1463-49f6-8b0d-2aabd96152aa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","path":"sprites/spr_enemy_spitter_alt/spr_enemy_spitter_alt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_enemy_spitter_alt","path":"sprites/spr_enemy_spitter_alt/spr_enemy_spitter_alt.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_enemy_spitter_alt",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "enemy sprites",
     "path": "folders/Sprites/enemy sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_enemy_spitter_alt",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

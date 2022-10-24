@@ -27,7 +27,17 @@ if (position_meeting(x + horiz_vel,y,obj_obstacle)){
 	horiz_vel = 0;	
 }
 
-var speed_modifier = player_weapon.weapon_weight
+var speed_modifier = 1
+if (player_weapon.is_firing){
+	mobility_debuff = true
+}
+
+if (mobility_debuff){
+	speed_modifier = player_weapon.weapon_weight
+	time_source_start(mobility_cooldown_timer)
+}
+
+
 
 
 if (place_meeting(x,y,obj_enemy_parent)){
@@ -95,7 +105,7 @@ if (curr_hp <= max_hp){
 }
 
 
-if (curr_hp <= 0){ // kill the player if they get to a low enough health
+if (curr_hp <= 0 || keyboard_check_pressed(ord("P"))){ // kill the player if they get to a low enough health
 	scr_player_kill()
 }
 

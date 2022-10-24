@@ -1,6 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_bullet_hit(bullet, target){
+	
+	// hurt the enemy
+	scr_enemy_hurt(target,bullet.damage)
+	
 	// create blood bellet when the target gets hit
 	repeat(max(min(ceil(bullet.damage)/5,10),1)){
 		var pellet = instance_create_layer(x,y,"Instances",obj_blood_pellet);
@@ -22,7 +26,4 @@ function scr_bullet_hit(bullet, target){
 		}
 
 	}
-	
-	// hurt the enemy
-	scr_enemy_hurt(target,bullet.damage)
 }

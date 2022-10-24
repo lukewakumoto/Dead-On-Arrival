@@ -41,6 +41,16 @@ ULTIMAX
 INTERVENTION
 BASTARD
 
+Tier 3
+Nitro Express
+P90
+AA12
+G11
+SCARH
+Minigun
+M99
+
+
 */
 
 #endregion
@@ -62,7 +72,14 @@ menu_item[1][5] = weapon.ULTIMAX
 menu_item[1][6] = weapon.INTERVENTION
 menu_item[1][7] = weapon.BASTARD
 
-menu_item[2][0] = weapon.MINIGUN
+menu_item[2][0] = weapon.NITRO
+menu_item[2][1] = weapon.P90
+menu_item[2][2] = weapon.AA12
+menu_item[2][3] = weapon.G11
+menu_item[2][4] = weapon.SCARH
+menu_item[2][5] = weapon.MINIGUN
+menu_item[2][6] = weapon.M99
+
 
 curr_menu = 0
 

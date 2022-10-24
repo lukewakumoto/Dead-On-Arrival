@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_sniper_m40_silhouette",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 1837,
   "height": 433,
   "textureGroupId": {
@@ -24,16 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"LayerId":{"name":"7c56b6a7-3d5e-4ced-97a7-e2a283fa998f","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"LayerId":{"name":"5fb5d1b1-a35f-4d0a-a1e1-a71fc4ef8bf9","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"LayerId":{"name":"1c107820-da5d-4e76-ba11-bd66b2ab6d2c","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"LayerId":{"name":"99bcb8a4-8e43-4fb1-aa78-2fded91b0bfc","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"LayerId":{"name":"a4adef6e-64d2-4d33-8f5c-c3b070fb4a29","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_sniper_m40_silhouette","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"resourceVersion":"1.0","name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_sniper_m40_silhouette","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_sniper_m40_silhouette",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bd6ea49a-2b64-42b9-ab08-f9acef329ff6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19b528ca-3fa1-4c39-b7d1-443b46ecea9e","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,26 +62,17 @@
     "yorigin": 216,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_sniper_m40_silhouette","path":"sprites/spr_weapon_sniper_m40_silhouette/spr_weapon_sniper_m40_silhouette.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_sniper_m40_silhouette",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Both","resourceVersion":"1.0","name":"7c56b6a7-3d5e-4ced-97a7-e2a283fa998f","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Scope","resourceVersion":"1.0","name":"5fb5d1b1-a35f-4d0a-a1e1-a71fc4ef8bf9","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Gun","resourceVersion":"1.0","name":"1c107820-da5d-4e76-ba11-bd66b2ab6d2c","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"99bcb8a4-8e43-4fb1-aa78-2fded91b0bfc","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a4adef6e-64d2-4d33-8f5c-c3b070fb4a29","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7c56b6a7-3d5e-4ced-97a7-e2a283fa998f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Both",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5fb5d1b1-a35f-4d0a-a1e1-a71fc4ef8bf9","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Scope",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1c107820-da5d-4e76-ba11-bd66b2ab6d2c","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Gun",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"99bcb8a4-8e43-4fb1-aa78-2fded91b0bfc","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a4adef6e-64d2-4d33-8f5c-c3b070fb4a29","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "silhouettes",
     "path": "folders/Sprites/UI/weapon icons/silhouettes.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_sniper_m40_silhouette",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

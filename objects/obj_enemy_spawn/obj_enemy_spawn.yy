@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_enemy_spawn",
   "spriteId": {
     "name": "spr_crosshair",
     "path": "sprites/spr_crosshair/spr_crosshair.yy",
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "NPCS",
     "path": "folders/Objects/NPCS.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_enemy_spawn",
-  "tags": [],
-  "resourceType": "GMObject",
 }

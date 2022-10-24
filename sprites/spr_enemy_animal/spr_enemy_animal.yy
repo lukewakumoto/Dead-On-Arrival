@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_enemy_animal",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
@@ -24,21 +28,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bd6a5c78-d603-4011-b77e-31d35d81a98f","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd6a5c78-d603-4011-b77e-31d35d81a98f","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"LayerId":{"name":"d29e9f90-2115-4ff7-ba25-98d60703e801","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_animal","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","name":"bd6a5c78-d603-4011-b77e-31d35d81a98f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f6066ab6-6d61-4e1a-9720-6890f1dddae1","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f6066ab6-6d61-4e1a-9720-6890f1dddae1","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"LayerId":{"name":"d29e9f90-2115-4ff7-ba25-98d60703e801","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_animal","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","name":"f6066ab6-6d61-4e1a-9720-6890f1dddae1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3f933c07-9797-45d8-8c55-c6ba9619d302","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f933c07-9797-45d8-8c55-c6ba9619d302","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"LayerId":{"name":"d29e9f90-2115-4ff7-ba25-98d60703e801","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_animal","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","name":"3f933c07-9797-45d8-8c55-c6ba9619d302","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"46c9c909-8562-459a-8971-b2ba8c845484","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"46c9c909-8562-459a-8971-b2ba8c845484","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"LayerId":{"name":"d29e9f90-2115-4ff7-ba25-98d60703e801","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_animal","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","name":"46c9c909-8562-459a-8971-b2ba8c845484","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd6a5c78-d603-4011-b77e-31d35d81a98f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6066ab6-6d61-4e1a-9720-6890f1dddae1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3f933c07-9797-45d8-8c55-c6ba9619d302",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"46c9c909-8562-459a-8971-b2ba8c845484",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_enemy_animal","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_enemy_animal",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -49,12 +47,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6069a892-30d5-4253-b5dc-09f019522880","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd6a5c78-d603-4011-b77e-31d35d81a98f","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9574cde3-f91e-4b11-ad03-2fbdd171d8b1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6066ab6-6d61-4e1a-9720-6890f1dddae1","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"02099e00-cb95-459d-81e2-a9177c2737eb","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f933c07-9797-45d8-8c55-c6ba9619d302","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7687b25f-7937-41ea-a57d-0f49db51638c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"46c9c909-8562-459a-8971-b2ba8c845484","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +68,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_enemy_animal","path":"sprites/spr_enemy_animal/spr_enemy_animal.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_enemy_animal",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d29e9f90-2115-4ff7-ba25-98d60703e801","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d29e9f90-2115-4ff7-ba25-98d60703e801","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "enemy sprites",
     "path": "folders/Sprites/enemy sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_enemy_animal",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

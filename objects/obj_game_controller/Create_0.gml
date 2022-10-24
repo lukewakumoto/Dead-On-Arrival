@@ -12,7 +12,7 @@ audio_play_sound(so_ambience,1,true)
 
 global.currGameState = gameState.RUNNING
 global.prevGameState = noone
-global.playerMoney = 0
+global.playerMoney = 1000000
 global.displayed_money = 0
 global.moneyToAdd = 0
 global.moneyToAddTimer = 0;
@@ -55,18 +55,12 @@ enemies_per_wave_func = function(wave_num){
 max_enemies_spawn = function(wave_num){
 	return ceil(enemies_per_wave_func(wave_num)/2)
 }
-wave_progress = 0
 
+wave_progress = 9
 max_waves = 10
-
-
-
-
-
-
-curr_wave = 0
+curr_wave = 9
 wave_delay = 5 * room_speed
-spawn_delay = .65 * room_speed
+spawn_delay = .45 * room_speed
 wave_delay_timer = wave_delay
 
 

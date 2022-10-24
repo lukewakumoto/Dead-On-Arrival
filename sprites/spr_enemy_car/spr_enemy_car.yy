@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_enemy_car",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,21 +28,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4573335f-0c62-46d7-81f6-4dfa3613bd92","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4573335f-0c62-46d7-81f6-4dfa3613bd92","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"LayerId":{"name":"eecfcba1-ffec-40bb-a51d-13c2475e694a","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_car","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","name":"4573335f-0c62-46d7-81f6-4dfa3613bd92","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4ff600b2-194e-4ec8-88fc-7d247711429d","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ff600b2-194e-4ec8-88fc-7d247711429d","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"LayerId":{"name":"eecfcba1-ffec-40bb-a51d-13c2475e694a","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_car","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","name":"4ff600b2-194e-4ec8-88fc-7d247711429d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"68da078a-3568-4b27-81b3-0649a5c97bdb","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"68da078a-3568-4b27-81b3-0649a5c97bdb","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"LayerId":{"name":"eecfcba1-ffec-40bb-a51d-13c2475e694a","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_car","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","name":"68da078a-3568-4b27-81b3-0649a5c97bdb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"096c78f8-222e-4922-ba70-94519fc4fcd1","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"096c78f8-222e-4922-ba70-94519fc4fcd1","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"LayerId":{"name":"eecfcba1-ffec-40bb-a51d-13c2475e694a","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_car","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","name":"096c78f8-222e-4922-ba70-94519fc4fcd1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4573335f-0c62-46d7-81f6-4dfa3613bd92",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ff600b2-194e-4ec8-88fc-7d247711429d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"68da078a-3568-4b27-81b3-0649a5c97bdb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"096c78f8-222e-4922-ba70-94519fc4fcd1",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_enemy_car","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_enemy_car",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -49,12 +47,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"053fc689-3f6f-4e9e-a932-2001c2303e27","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4573335f-0c62-46d7-81f6-4dfa3613bd92","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"690a1d50-d4e2-4f44-a209-9cfff4068a5a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ff600b2-194e-4ec8-88fc-7d247711429d","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3cc4f03f-4cc2-4dc7-a0bd-b475f4200baf","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68da078a-3568-4b27-81b3-0649a5c97bdb","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e92fc3ea-b009-4468-a0cf-5e35617606cc","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"096c78f8-222e-4922-ba70-94519fc4fcd1","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +68,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_enemy_car","path":"sprites/spr_enemy_car/spr_enemy_car.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_enemy_car",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"eecfcba1-ffec-40bb-a51d-13c2475e694a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"eecfcba1-ffec-40bb-a51d-13c2475e694a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "enemy sprites",
     "path": "folders/Sprites/enemy sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_enemy_car",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

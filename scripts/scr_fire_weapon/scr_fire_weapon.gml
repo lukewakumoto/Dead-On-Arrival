@@ -16,6 +16,9 @@ function scr_fire_weapon(x,y, dir){
 		new_bullet.range = weapon_range
 		new_bullet.penetration = caliber_penetration
 		new_bullet.damage = caliber_damage
+		new_bullet.falloff_start = is_undefined(caliber_falloff_start) ? 0 : caliber_falloff_start
+		new_bullet.falloff_end = is_undefined(caliber_falloff_end) ? 0 : caliber_falloff_end
+		new_bullet.damage_min = is_undefined(caliber_damage_min) ? caliber_damage : caliber_damage_min
 		
 	}
 	

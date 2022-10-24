@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "weapon_scale_colored",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -8,14 +11,15 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 53,
-  "bbox_right": 2358,
-  "bbox_top": 27,
-  "bbox_bottom": 9454,
+  "bbox_right": 2314,
+  "bbox_top": 2,
+  "bbox_bottom": 13747,
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 2500,
-  "height": 10000,
+  "height": 15000,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8a06581c-964a-4e5a-9bdf-3a8c413f3f34","path":"sprites/weapon_scale_colored/weapon_scale_colored.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8a06581c-964a-4e5a-9bdf-3a8c413f3f34","path":"sprites/weapon_scale_colored/weapon_scale_colored.yy",},"LayerId":{"name":"a9336ac1-2e7b-4bc6-9a88-7d92c7a396a3","path":"sprites/weapon_scale_colored/weapon_scale_colored.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"weapon_scale_colored","path":"sprites/weapon_scale_colored/weapon_scale_colored.yy",},"resourceVersion":"1.0","name":"8a06581c-964a-4e5a-9bdf-3a8c413f3f34","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8a06581c-964a-4e5a-9bdf-3a8c413f3f34",},
   ],
   "sequence": {
-    "spriteId": {"name":"weapon_scale_colored","path":"sprites/weapon_scale_colored/weapon_scale_colored.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "weapon_scale_colored",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d0dd90f8-36bd-4494-a663-ea25ead23b98","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8a06581c-964a-4e5a-9bdf-3a8c413f3f34","path":"sprites/weapon_scale_colored/weapon_scale_colored.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"weapon_scale_colored","path":"sprites/weapon_scale_colored/weapon_scale_colored.yy",},
-    "resourceVersion": "1.4",
-    "name": "weapon_scale_colored",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a9336ac1-2e7b-4bc6-9a88-7d92c7a396a3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a9336ac1-2e7b-4bc6-9a88-7d92c7a396a3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "colored",
     "path": "folders/Sprites/UI/weapon icons/colored.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "weapon_scale_colored",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

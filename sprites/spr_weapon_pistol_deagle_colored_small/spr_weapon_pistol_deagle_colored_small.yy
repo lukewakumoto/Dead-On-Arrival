@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_pistol_deagle_colored_small",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 370,
   "height": 235,
   "textureGroupId": {
@@ -103,12 +107,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"317fe38a-4210-4e7d-81d8-88a5920a11d5","path":"sprites/spr_weapon_pistol_deagle_colored_small/spr_weapon_pistol_deagle_colored_small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"317fe38a-4210-4e7d-81d8-88a5920a11d5","path":"sprites/spr_weapon_pistol_deagle_colored_small/spr_weapon_pistol_deagle_colored_small.yy",},"LayerId":{"name":"68f6b501-0f4a-404b-a7a6-3ab90cf3205a","path":"sprites/spr_weapon_pistol_deagle_colored_small/spr_weapon_pistol_deagle_colored_small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_pistol_deagle_colored_small","path":"sprites/spr_weapon_pistol_deagle_colored_small/spr_weapon_pistol_deagle_colored_small.yy",},"resourceVersion":"1.0","name":"317fe38a-4210-4e7d-81d8-88a5920a11d5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"317fe38a-4210-4e7d-81d8-88a5920a11d5",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_pistol_deagle_colored_small","path":"sprites/spr_weapon_pistol_deagle_colored_small/spr_weapon_pistol_deagle_colored_small.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_pistol_deagle_colored_small",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -119,9 +123,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2b492caa-26a3-46bd-a9e6-306ecd70da53","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"317fe38a-4210-4e7d-81d8-88a5920a11d5","path":"sprites/spr_weapon_pistol_deagle_colored_small/spr_weapon_pistol_deagle_colored_small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -137,22 +141,13 @@
     "yorigin": 117,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_pistol_deagle_colored_small","path":"sprites/spr_weapon_pistol_deagle_colored_small/spr_weapon_pistol_deagle_colored_small.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_pistol_deagle_colored_small",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"68f6b501-0f4a-404b-a7a6-3ab90cf3205a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"68f6b501-0f4a-404b-a7a6-3ab90cf3205a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "colored",
     "path": "folders/Sprites/UI/weapon icons/colored.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_pistol_deagle_colored_small",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

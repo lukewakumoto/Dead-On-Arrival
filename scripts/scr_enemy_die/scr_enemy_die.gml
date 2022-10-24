@@ -8,9 +8,9 @@ function scr_enemy_die(x_origin,y_origin,enemy,by_explosion,coin_type){
 		corpse.image_angle = image_angle
 		corpse.image_xscale = image_xscale
 		corpse.image_yscale = image_yscale
-		instance_destroy(enemy)
 		audio_sound_pitch(enemy.death_sound,random_range(0.8,1.2))
 		audio_play_sound(enemy.death_sound, 1, false);
+		
 		
 		if (!was_spawned){
 		scr_drop_money(x_origin,y_origin,enemy.value,enemy.coin_type) // only drop money if they aren't killed by an explosion or if it wasn't spawned by a car
@@ -19,6 +19,8 @@ function scr_enemy_die(x_origin,y_origin,enemy,by_explosion,coin_type){
 			global.weapon_kills[obj_player_weapon.weapon_id] ++	
 			//show_debug_message("Another kill for " + string(obj_player_weapon.weapon_id) + "For a total of " + string(global.weapon_kills[obj_player_weapon.weapon_id]))
 		}
+		
+		instance_destroy(enemy)
 	}
 	else{
 		var _direction = point_direction(enemy.x,enemy.y,x_origin,y_origin)
@@ -31,8 +33,9 @@ function scr_enemy_die(x_origin,y_origin,enemy,by_explosion,coin_type){
 			pellet.direction = -_direction + random_range(-15,15);
 			pellet.image_angle = -_direction
 		}
-		instance_destroy(enemy)
+		
 		scr_drop_money(x_origin,y_origin,enemy.value,enemy.coin_type)
+		instance_destroy(enemy)
 	}
 	global.totalKills ++
 	global.enemiesLeft --

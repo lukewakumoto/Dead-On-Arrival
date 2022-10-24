@@ -30,6 +30,7 @@ function scr_enemy_attack(){
 	attack_function_spitter = function(dmg){
 		image_angle = point_direction(x,y,obj_player.x,obj_player.y);
 		var projectile = instance_create_layer(x,y,"Instances",obj_spitter_projectile)
+		projectile.speed = 10
 		projectile.direction = direction
 		projectile.image_angle = direction
 		projectile.dmg = dmg

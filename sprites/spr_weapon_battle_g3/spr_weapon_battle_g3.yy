@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_battle_g3",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 120,
   "height": 30,
   "textureGroupId": {
@@ -24,14 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd274e7b-83b1-4a98-9276-bc39fc253a16","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd274e7b-83b1-4a98-9276-bc39fc253a16","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"LayerId":{"name":"3425e9f5-61fc-4488-85fa-bf62b5b6b007","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"cd274e7b-83b1-4a98-9276-bc39fc253a16","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"LayerId":{"name":"221514e1-a0ad-491d-aee9-3efffec3bbc6","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"cd274e7b-83b1-4a98-9276-bc39fc253a16","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"LayerId":{"name":"b8f00c70-2be8-4872-8ad0-bb98df50eee5","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_battle_g3","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"resourceVersion":"1.0","name":"cd274e7b-83b1-4a98-9276-bc39fc253a16","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd274e7b-83b1-4a98-9276-bc39fc253a16",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_battle_g3","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_battle_g3",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"75107dda-702a-49eb-ba11-6ec4ddd14dbf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd274e7b-83b1-4a98-9276-bc39fc253a16","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"06bab183-fdf9-448b-a84f-ea3ae3654cbc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd274e7b-83b1-4a98-9276-bc39fc253a16","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -60,24 +62,15 @@
     "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_battle_g3","path":"sprites/spr_weapon_battle_g3/spr_weapon_battle_g3.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_battle_g3",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3425e9f5-61fc-4488-85fa-bf62b5b6b007","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"221514e1-a0ad-491d-aee9-3efffec3bbc6","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"b8f00c70-2be8-4872-8ad0-bb98df50eee5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3425e9f5-61fc-4488-85fa-bf62b5b6b007","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"221514e1-a0ad-491d-aee9-3efffec3bbc6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b8f00c70-2be8-4872-8ad0-bb98df50eee5","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "player weapon sprites",
     "path": "folders/Sprites/weapon sprites/player weapon sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_battle_g3",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

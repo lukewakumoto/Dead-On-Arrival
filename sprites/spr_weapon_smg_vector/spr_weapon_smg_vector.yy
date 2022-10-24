@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_smg_vector",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 98,
   "height": 30,
   "textureGroupId": {
@@ -24,15 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2837118c-806f-4dbb-b65b-bfbd3958497b","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2837118c-806f-4dbb-b65b-bfbd3958497b","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"LayerId":{"name":"eb4459dc-6b0e-476e-ab90-41a346c51da1","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"2837118c-806f-4dbb-b65b-bfbd3958497b","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"LayerId":{"name":"ac1997a5-1759-4f5f-aa50-1ceabec8bc2f","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"2837118c-806f-4dbb-b65b-bfbd3958497b","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"LayerId":{"name":"28f1ee68-415a-45bf-b00a-eb8aeb7686c3","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"2837118c-806f-4dbb-b65b-bfbd3958497b","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"LayerId":{"name":"1d4c1604-4206-4893-b6c0-f280a4cb81a8","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_smg_vector","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"resourceVersion":"1.0","name":"2837118c-806f-4dbb-b65b-bfbd3958497b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2837118c-806f-4dbb-b65b-bfbd3958497b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_smg_vector","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_smg_vector",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 5.0,
@@ -43,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5bcdefd0-323b-451f-a832-21a069f21c3c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2837118c-806f-4dbb-b65b-bfbd3958497b","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -61,25 +62,16 @@
     "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_smg_vector","path":"sprites/spr_weapon_smg_vector/spr_weapon_smg_vector.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_smg_vector",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"eb4459dc-6b0e-476e-ab90-41a346c51da1","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 3","resourceVersion":"1.0","name":"ac1997a5-1759-4f5f-aa50-1ceabec8bc2f","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"28f1ee68-415a-45bf-b00a-eb8aeb7686c3","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"hands","resourceVersion":"1.0","name":"1d4c1604-4206-4893-b6c0-f280a4cb81a8","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"eb4459dc-6b0e-476e-ab90-41a346c51da1","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ac1997a5-1759-4f5f-aa50-1ceabec8bc2f","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 3",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"28f1ee68-415a-45bf-b00a-eb8aeb7686c3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1d4c1604-4206-4893-b6c0-f280a4cb81a8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"hands",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "player weapon sprites",
     "path": "folders/Sprites/weapon sprites/player weapon sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_smg_vector",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

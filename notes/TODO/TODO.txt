@@ -1,4 +1,9 @@
-1. Add weapon descriptions
-2. Add sound effects for explosions, more reloading
-3. Make waves spawn enemies incrementally instead of all at once.
-4. Add title menu
+1. Reduce player movement when they are firing for certain weapon catergories
+2. Damage falloff
+3. Add "Special" weapons that are cooldown (minigun)
+- Random penetration
+- Armor
+- Special items (health packs, buffs, etc.)
+- More enemy types
+- Special wave types
+- Boss enemies

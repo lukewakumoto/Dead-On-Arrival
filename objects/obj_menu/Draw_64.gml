@@ -104,30 +104,35 @@ if (menu_active){
 	draw_text(10, offset + text_height, "Penetration: " + string(penetration));
 	//draw_healthbar(bar_offset_x,offset+text_height+bar_offset_y,bar_offset_x + 120,offset+text_height*2-bar_offset_y, (penetration/4)*100,c_black,c_red,c_lime,0,true,true );
 	
-	draw_text(10, offset + text_height*2, "Fire Rate: " + string(room_speed/selected_menu_item[? "fire_delay"]));
+	var _fire_mod = is_undefined(selected_menu_item[? "bullets_per_shot"]) ? 1 : selected_menu_item[? "bullets_per_shot"]
+	var _bullets_per_second = ((room_speed/selected_menu_item[? "fire_delay"]) * _fire_mod)/room_speed
+	draw_text(10, offset + text_height*2, "Fire Rate: " + string(_bullets_per_second) + " rounds/sec");
 	//draw_healthbar(bar_offset_x,offset+text_height*2+bar_offset_y,bar_offset_x + 120,offset+text_height*3-bar_offset_y, (1/selected_menu_item[? "fire_delay"]/15)*100,c_black,c_red,c_lime,0,true,true );
 	
-	draw_text(10, offset + text_height*3, "Spread: " + string(selected_menu_item[? "spread"]) );
+	draw_text(10, offset + text_height*3, "DPS: " + string(_bullets_per_second * damage));
+	//draw_healthbar(bar_offset_x,offset+text_height*6+bar_offset_y,bar_offset_x + 120,offset + text_height*7-bar_offset_y, ((selected_menu_item[? "wep_weight"] - .25)/1.00)*100,c_black,c_red,c_lime,0,true,true );
+	
+	draw_text(10, offset + text_height*4, "Spread: " + string(selected_menu_item[? "spread"]) );
 	//draw_healthbar(bar_offset_x,offset+text_height*3+bar_offset_y,bar_offset_x + 120,offset + text_height*4-bar_offset_y, (1/selected_menu_item[? "spread"]/3.5)*100,c_black,c_red,c_lime,0,true,true );
 	
-	draw_text(10, offset + text_height*4, "Reload Time: " + string(selected_menu_item[? "reload_time"]));
+	draw_text(10, offset + text_height*5, "Reload Time: " + string(selected_menu_item[? "reload_time"]));
 	//draw_healthbar(bar_offset_x,offset+text_height*4+bar_offset_y,bar_offset_x + 120,offset + text_height*5-bar_offset_y, (1/selected_menu_item[? "reload_time"]/1.5)*100,c_black,c_red,c_lime,0,true,true );
 	
-	draw_text(10, offset + text_height*5, "Magazine Size: " + string(selected_menu_item[? "mag_capacity"]));
+	draw_text(10, offset + text_height*6, "Magazine Size: " + string(selected_menu_item[? "mag_capacity"]));
 	//draw_healthbar(bar_offset_x,offset+text_height*5+bar_offset_y,bar_offset_x + 120,offset + text_height*6-bar_offset_y, (selected_menu_item[? "mag_capacity"]/50)*100,c_black,c_red,c_lime,0,true,true );
 	
-	draw_text(10, offset + text_height*6, "Maneuverability: " + string(selected_menu_item[? "wep_weight"]));
+	draw_text(10, offset + text_height*7, "Maneuverability: " + string(selected_menu_item[? "wep_weight"]));
 	//draw_healthbar(bar_offset_x,offset+text_height*6+bar_offset_y,bar_offset_x + 120,offset + text_height*7-bar_offset_y, ((selected_menu_item[? "wep_weight"] - .25)/1.00)*100,c_black,c_red,c_lime,0,true,true );
 #endregion	
 
 	// draw weapon description
 	draw_set_color(c_grey)
 	draw_set_alpha(0.5)
-	draw_rectangle(0,offset + text_height*7.5, 450, global.camera_height,false)
+	draw_rectangle(0,offset + text_height*8.5, 450, global.camera_height,false)
 
 	draw_set_color(c_white)
 	draw_set_alpha(1.0)
-	draw_text_ext(10,offset + text_height*8,string(selected_menu_item[? "wep_description"]),text_height, 440)
+	draw_text_ext(10,offset + text_height*9,string(selected_menu_item[? "wep_description"]),text_height, 440)
 	// Draw the weapon statistics and the buy button
 
 	if (selected_item != noone){

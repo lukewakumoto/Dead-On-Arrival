@@ -18,6 +18,7 @@ function scr_change_weapon(wep_index){
 	reload_time = curr_weapon[? "reload_time"]
 	reload_type = curr_weapon[? "reload_type"]
 	caliber_index = curr_weapon[? "caliber"]
+	bullets_per_shot = curr_weapon[? "bullets_per_shot"]
 	weapon_spread = curr_weapon[? "spread"]
 	weapon_sound = curr_weapon[? "fire_sound"]
 	weapon_reload_sound = curr_weapon[? "reload_sound"]
@@ -28,9 +29,13 @@ function scr_change_weapon(wep_index){
 	caliber_sprite = curr_caliber[? "cal_sprite"]
 	casing_sprite = curr_caliber[? "casing_sprite"]
 	caliber_damage = curr_caliber[? "damage"]
+	caliber_falloff_start = curr_caliber[? "damage_falloff_start"]
+	caliber_falloff_end = curr_caliber[? "damage_falloff_end"]
+	caliber_damage_min = curr_caliber[? "damage_min"]
 	caliber_penetration = curr_caliber[? "penetration"]
 	caliber_speed = curr_caliber[? "speed"]
 	caliber_num_shot = curr_caliber[? "number_of_shot"]
+	
 
 
 }

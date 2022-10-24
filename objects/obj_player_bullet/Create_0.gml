@@ -5,6 +5,10 @@ penetration = 0
 damage = 0
 bullet_spread = 0
 dist_to_visible = 0
+start_pos = [x,y]
+falloff_start = 0
+falloff_end = 0
+damage_min = 0
 
 enemies_hit = ds_list_create()
 

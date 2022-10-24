@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "weapon_scale",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 2400,
   "height": 10000,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"57599488-6a67-40e4-b8b3-943c1f671eb2","path":"sprites/weapon_scale/weapon_scale.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"57599488-6a67-40e4-b8b3-943c1f671eb2","path":"sprites/weapon_scale/weapon_scale.yy",},"LayerId":{"name":"6664bc05-8891-4379-aab8-1c7ba363f727","path":"sprites/weapon_scale/weapon_scale.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"weapon_scale","path":"sprites/weapon_scale/weapon_scale.yy",},"resourceVersion":"1.0","name":"57599488-6a67-40e4-b8b3-943c1f671eb2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"57599488-6a67-40e4-b8b3-943c1f671eb2",},
   ],
   "sequence": {
-    "spriteId": {"name":"weapon_scale","path":"sprites/weapon_scale/weapon_scale.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "weapon_scale",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7bc2797b-87dc-4434-80bd-fb57e7029770","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"57599488-6a67-40e4-b8b3-943c1f671eb2","path":"sprites/weapon_scale/weapon_scale.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 9713,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"weapon_scale","path":"sprites/weapon_scale/weapon_scale.yy",},
-    "resourceVersion": "1.4",
-    "name": "weapon_scale",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6664bc05-8891-4379-aab8-1c7ba363f727","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6664bc05-8891-4379-aab8-1c7ba363f727","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "silhouettes",
     "path": "folders/Sprites/UI/weapon icons/silhouettes.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "weapon_scale",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -34,3 +34,6 @@ walk_timer = 20
 curr_walk_timer = walk_timer
 
 mainEmitter = audio_emitter_create()
+
+mobility_debuff = false
+mobility_cooldown_timer = time_source_create(time_source_global, 0.25, time_source_units_seconds,function(){mobility_debuff = false})

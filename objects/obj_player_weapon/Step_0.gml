@@ -56,10 +56,12 @@ if (fire && canShoot) { // make it impossible to fire while already bursting
 if (fire && ammunition[weapon_id][0] <= 0 && canShoot){
 	audio_play_sound(so_dry_fire,1,false)	
 }
-
+is_firing = false
 if (((fire && ammunition[weapon_id][0] > 0 && canShoot)
 	|| (canShoot && bursting && curr_burst > 0 && ammunition[weapon_id][0] > 0))
 	&& !gun_obstructed){
+		
+	is_firing = true
 	image_speed = 1
 	if (weapon_type != weaponType.MELEE){
 		sprite_set_speed(sprite_index, (sprite_get_number(sprite_index))/fire_delay, spritespeed_framespersecond);
@@ -81,11 +83,24 @@ if (((fire && ammunition[weapon_id][0] > 0 && canShoot)
 		}
 		audio_play_sound(weapon_sound,1,false)
 
-		scr_fire_weapon(x, y,direction)	
-		alarm[3] =  1
+		var _times_to_repeat = is_undefined(bullets_per_shot) ? 1 : bullets_per_shot
+	
+	
+		repeat(min(_times_to_repeat, ammunition[weapon_id][0])){
+			if (fire_type == fireType.BOLT){
+				src = time_source_create(time_source_game, 0.5, time_source_units_seconds, scr_create_casing, [id], 1)
+				time_source_start(src)
+			} else{
+				scr_create_casing(id)
+			}
+			scr_fire_weapon(x, y,direction)	
+			
+			ammunition[weapon_id][0] -- // remove ammo from magazine
+		}
+		
 		
 		//scr_fire_weapon(x,y,direction)
-		ammunition[weapon_id][0] -- // remove ammo from magazine
+		
 		
 		// shake the camera a bit
 		global.camera_shake = 2.5

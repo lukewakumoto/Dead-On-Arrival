@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_assault_ak15",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 108,
   "height": 30,
   "textureGroupId": {
@@ -24,29 +28,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7956f5a8-adfa-4bff-9aa4-3f3e1f1f1276","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7956f5a8-adfa-4bff-9aa4-3f3e1f1f1276","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"2060fcc6-bbcb-4a1b-804b-03a05a82ed5f","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"7956f5a8-adfa-4bff-9aa4-3f3e1f1f1276","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"fbd60b2e-40ce-4f7d-a559-9882bb52769d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"7956f5a8-adfa-4bff-9aa4-3f3e1f1f1276","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"ab6eb291-c4e7-47f0-8570-da3984604896","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_assault_ak15","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"7956f5a8-adfa-4bff-9aa4-3f3e1f1f1276","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7a282653-85bc-4736-bb5a-113a9ad09a36","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7a282653-85bc-4736-bb5a-113a9ad09a36","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"2060fcc6-bbcb-4a1b-804b-03a05a82ed5f","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"7a282653-85bc-4736-bb5a-113a9ad09a36","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"fbd60b2e-40ce-4f7d-a559-9882bb52769d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"7a282653-85bc-4736-bb5a-113a9ad09a36","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"ab6eb291-c4e7-47f0-8570-da3984604896","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_assault_ak15","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"7a282653-85bc-4736-bb5a-113a9ad09a36","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"17b7ab82-f2a8-4b26-a9e4-25867937eb7d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"17b7ab82-f2a8-4b26-a9e4-25867937eb7d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"2060fcc6-bbcb-4a1b-804b-03a05a82ed5f","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"17b7ab82-f2a8-4b26-a9e4-25867937eb7d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"fbd60b2e-40ce-4f7d-a559-9882bb52769d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"17b7ab82-f2a8-4b26-a9e4-25867937eb7d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"ab6eb291-c4e7-47f0-8570-da3984604896","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_assault_ak15","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"17b7ab82-f2a8-4b26-a9e4-25867937eb7d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c44f94ee-a2b0-429e-8542-0ebc6cae910e","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c44f94ee-a2b0-429e-8542-0ebc6cae910e","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"2060fcc6-bbcb-4a1b-804b-03a05a82ed5f","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c44f94ee-a2b0-429e-8542-0ebc6cae910e","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"fbd60b2e-40ce-4f7d-a559-9882bb52769d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c44f94ee-a2b0-429e-8542-0ebc6cae910e","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"LayerId":{"name":"ab6eb291-c4e7-47f0-8570-da3984604896","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_assault_ak15","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","name":"c44f94ee-a2b0-429e-8542-0ebc6cae910e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7956f5a8-adfa-4bff-9aa4-3f3e1f1f1276",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7a282653-85bc-4736-bb5a-113a9ad09a36",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"17b7ab82-f2a8-4b26-a9e4-25867937eb7d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c44f94ee-a2b0-429e-8542-0ebc6cae910e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_assault_ak15","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_assault_ak15",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -57,12 +47,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"95de011a-c5da-4118-aa48-e0310110ef69","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7956f5a8-adfa-4bff-9aa4-3f3e1f1f1276","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5d555e97-2b01-42b7-8395-385e4dbd4805","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a282653-85bc-4736-bb5a-113a9ad09a36","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a6384e2e-e5ed-4e07-801b-d157ba6fc8a2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"17b7ab82-f2a8-4b26-a9e4-25867937eb7d","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"228d1906-6085-4f26-bcbe-6ecd2334d1e8","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c44f94ee-a2b0-429e-8542-0ebc6cae910e","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,24 +68,15 @@
     "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_assault_ak15","path":"sprites/spr_weapon_assault_ak15/spr_weapon_assault_ak15.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_assault_ak15",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"2060fcc6-bbcb-4a1b-804b-03a05a82ed5f","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fbd60b2e-40ce-4f7d-a559-9882bb52769d","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"ab6eb291-c4e7-47f0-8570-da3984604896","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2060fcc6-bbcb-4a1b-804b-03a05a82ed5f","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fbd60b2e-40ce-4f7d-a559-9882bb52769d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ab6eb291-c4e7-47f0-8570-da3984604896","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "player weapon sprites",
     "path": "folders/Sprites/weapon sprites/player weapon sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_assault_ak15",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

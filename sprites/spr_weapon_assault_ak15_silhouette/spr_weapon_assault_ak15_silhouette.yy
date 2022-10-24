@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_assault_ak15_silhouette",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 1517,
   "height": 459,
   "textureGroupId": {
@@ -24,13 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0fc70f31-3137-4ea2-84d5-3c37b244a668","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0fc70f31-3137-4ea2-84d5-3c37b244a668","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},"LayerId":{"name":"35253035-5666-4778-bce4-030e041475f8","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"0fc70f31-3137-4ea2-84d5-3c37b244a668","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},"LayerId":{"name":"3b9921f4-e7f5-41e9-96a1-3738c7416819","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_assault_ak15_silhouette","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},"resourceVersion":"1.0","name":"0fc70f31-3137-4ea2-84d5-3c37b244a668","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0fc70f31-3137-4ea2-84d5-3c37b244a668",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_assault_ak15_silhouette","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_assault_ak15_silhouette",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"aa6e45b4-8af8-4cc1-ac88-aa54ad2a4f48","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0fc70f31-3137-4ea2-84d5-3c37b244a668","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,23 +62,14 @@
     "yorigin": 229,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_assault_ak15_silhouette","path":"sprites/spr_weapon_assault_ak15_silhouette/spr_weapon_assault_ak15_silhouette.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_assault_ak15_silhouette",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"35253035-5666-4778-bce4-030e041475f8","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3b9921f4-e7f5-41e9-96a1-3738c7416819","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"35253035-5666-4778-bce4-030e041475f8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3b9921f4-e7f5-41e9-96a1-3738c7416819","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "silhouettes",
     "path": "folders/Sprites/UI/weapon icons/silhouettes.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_assault_ak15_silhouette",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

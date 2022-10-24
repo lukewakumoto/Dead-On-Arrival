@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_smg_vector_silhouette",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 1370,
   "height": 725,
   "textureGroupId": {
@@ -24,13 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e9541fd2-6840-413a-9b5a-29200ae4529d","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e9541fd2-6840-413a-9b5a-29200ae4529d","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},"LayerId":{"name":"c6659e43-aa34-4549-b286-b726f119d8ef","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"e9541fd2-6840-413a-9b5a-29200ae4529d","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},"LayerId":{"name":"2346b940-3a47-491a-a753-0a4ee08b6c8b","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_smg_vector_silhouette","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},"resourceVersion":"1.0","name":"e9541fd2-6840-413a-9b5a-29200ae4529d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9541fd2-6840-413a-9b5a-29200ae4529d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_smg_vector_silhouette","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_smg_vector_silhouette",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"65eeba1d-6bd4-40c7-8617-b9cd1117ba0b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9541fd2-6840-413a-9b5a-29200ae4529d","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,23 +62,14 @@
     "yorigin": 362,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_smg_vector_silhouette","path":"sprites/spr_weapon_smg_vector_silhouette/spr_weapon_smg_vector_silhouette.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_smg_vector_silhouette",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"c6659e43-aa34-4549-b286-b726f119d8ef","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2346b940-3a47-491a-a753-0a4ee08b6c8b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c6659e43-aa34-4549-b286-b726f119d8ef","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2346b940-3a47-491a-a753-0a4ee08b6c8b","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "silhouettes",
     "path": "folders/Sprites/UI/weapon icons/silhouettes.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_smg_vector_silhouette",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

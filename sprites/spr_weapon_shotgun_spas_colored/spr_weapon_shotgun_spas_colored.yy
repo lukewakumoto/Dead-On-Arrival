@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_shotgun_spas_colored",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 1359,
   "height": 680,
   "textureGroupId": {
@@ -24,13 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"47daafc4-a0aa-4e76-985b-e3a79b9f3bba","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"47daafc4-a0aa-4e76-985b-e3a79b9f3bba","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},"LayerId":{"name":"d045d0e1-59c5-4922-ba0b-c583923b0c36","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"47daafc4-a0aa-4e76-985b-e3a79b9f3bba","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},"LayerId":{"name":"f59e666a-726a-4e72-a0cd-20f7b05cdcc3","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_shotgun_spas_colored","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},"resourceVersion":"1.0","name":"47daafc4-a0aa-4e76-985b-e3a79b9f3bba","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"47daafc4-a0aa-4e76-985b-e3a79b9f3bba",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_shotgun_spas_colored","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_shotgun_spas_colored",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"33c9bef4-0173-4533-b940-e6392b1f130d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47daafc4-a0aa-4e76-985b-e3a79b9f3bba","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,23 +62,14 @@
     "yorigin": 340,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_shotgun_spas_colored","path":"sprites/spr_weapon_shotgun_spas_colored/spr_weapon_shotgun_spas_colored.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_shotgun_spas_colored",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"d045d0e1-59c5-4922-ba0b-c583923b0c36","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f59e666a-726a-4e72-a0cd-20f7b05cdcc3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d045d0e1-59c5-4922-ba0b-c583923b0c36","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f59e666a-726a-4e72-a0cd-20f7b05cdcc3","visible":false,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "colored",
     "path": "folders/Sprites/UI/weapon icons/colored.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_shotgun_spas_colored",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

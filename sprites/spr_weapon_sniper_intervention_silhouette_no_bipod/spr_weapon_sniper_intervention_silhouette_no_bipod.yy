@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_sniper_intervention_silhouette_no_bipod",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 1955,
   "height": 539,
   "textureGroupId": {
@@ -24,13 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b73a64ea-fbb7-4302-a51b-33f8db1e5708","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b73a64ea-fbb7-4302-a51b-33f8db1e5708","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},"LayerId":{"name":"bfb86a30-674f-4884-a9c4-d934c7ec74f6","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"b73a64ea-fbb7-4302-a51b-33f8db1e5708","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},"LayerId":{"name":"b9fc996c-bbc5-48a9-b878-db5afa517485","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_sniper_intervention_silhouette_no_bipod","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},"resourceVersion":"1.0","name":"b73a64ea-fbb7-4302-a51b-33f8db1e5708","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b73a64ea-fbb7-4302-a51b-33f8db1e5708",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_sniper_intervention_silhouette_no_bipod","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_sniper_intervention_silhouette_no_bipod",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"781137bb-c2ab-4bb9-b783-4f8aec2a0afb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b73a64ea-fbb7-4302-a51b-33f8db1e5708","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,23 +62,14 @@
     "yorigin": 269,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_sniper_intervention_silhouette_no_bipod","path":"sprites/spr_weapon_sniper_intervention_silhouette_no_bipod/spr_weapon_sniper_intervention_silhouette_no_bipod.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_sniper_intervention_silhouette_no_bipod",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"bfb86a30-674f-4884-a9c4-d934c7ec74f6","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b9fc996c-bbc5-48a9-b878-db5afa517485","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bfb86a30-674f-4884-a9c4-d934c7ec74f6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b9fc996c-bbc5-48a9-b878-db5afa517485","visible":false,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "unused",
     "path": "folders/Sprites/UI/weapon icons/silhouettes/unused.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_sniper_intervention_silhouette_no_bipod",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

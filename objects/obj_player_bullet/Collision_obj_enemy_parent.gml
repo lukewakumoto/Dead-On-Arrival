@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // make sure enemies are only hit once by any given bullet
-if (ds_list_find_index(enemies_hit,other) == -1){
+if (ds_list_find_index(enemies_hit,other) == -1 and other.hp > 0){
 	ds_list_add(enemies_hit,other)
 	scr_bullet_hit(id,other)
 	

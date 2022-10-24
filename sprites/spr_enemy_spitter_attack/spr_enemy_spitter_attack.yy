@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_enemy_spitter_attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 50,
   "height": 32,
   "textureGroupId": {
@@ -24,61 +28,24 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"175ef5e0-10dd-4cc3-b16d-ccbfeac19a69","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"175ef5e0-10dd-4cc3-b16d-ccbfeac19a69","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"175ef5e0-10dd-4cc3-b16d-ccbfeac19a69","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"175ef5e0-10dd-4cc3-b16d-ccbfeac19a69","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ef1806f4-1941-489f-993e-9932022953f1","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ef1806f4-1941-489f-993e-9932022953f1","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"ef1806f4-1941-489f-993e-9932022953f1","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"ef1806f4-1941-489f-993e-9932022953f1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4ad9e430-b6a5-4da5-93ff-26b50355210a","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ad9e430-b6a5-4da5-93ff-26b50355210a","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"4ad9e430-b6a5-4da5-93ff-26b50355210a","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"4ad9e430-b6a5-4da5-93ff-26b50355210a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"813ac598-5b2a-4bc8-941b-d8deac9f4cbf","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"813ac598-5b2a-4bc8-941b-d8deac9f4cbf","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"813ac598-5b2a-4bc8-941b-d8deac9f4cbf","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"813ac598-5b2a-4bc8-941b-d8deac9f4cbf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ee6fa3e9-cec4-4662-83fe-64b78a4f6387","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ee6fa3e9-cec4-4662-83fe-64b78a4f6387","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"ee6fa3e9-cec4-4662-83fe-64b78a4f6387","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"ee6fa3e9-cec4-4662-83fe-64b78a4f6387","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4858d299-40e3-48eb-b2b0-e59df9ab9a58","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4858d299-40e3-48eb-b2b0-e59df9ab9a58","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"4858d299-40e3-48eb-b2b0-e59df9ab9a58","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"4858d299-40e3-48eb-b2b0-e59df9ab9a58","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d271f1f0-f9bb-4971-be12-cfd534a1deaf","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d271f1f0-f9bb-4971-be12-cfd534a1deaf","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"d271f1f0-f9bb-4971-be12-cfd534a1deaf","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"d271f1f0-f9bb-4971-be12-cfd534a1deaf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bb74ea0f-4fc1-4a1c-83d8-35d90a8ee48c","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bb74ea0f-4fc1-4a1c-83d8-35d90a8ee48c","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"bb74ea0f-4fc1-4a1c-83d8-35d90a8ee48c","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"bb74ea0f-4fc1-4a1c-83d8-35d90a8ee48c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"08e5c997-7bef-4a15-b6db-70eb09ddabc0","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08e5c997-7bef-4a15-b6db-70eb09ddabc0","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"08e5c997-7bef-4a15-b6db-70eb09ddabc0","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"08e5c997-7bef-4a15-b6db-70eb09ddabc0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ecb3d3bd-7f78-4524-a553-5c5798bec356","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ecb3d3bd-7f78-4524-a553-5c5798bec356","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"ecb3d3bd-7f78-4524-a553-5c5798bec356","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"ecb3d3bd-7f78-4524-a553-5c5798bec356","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cb6ef6ce-55ca-4c1d-bd04-1d7d440b2da7","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb6ef6ce-55ca-4c1d-bd04-1d7d440b2da7","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"cb6ef6ce-55ca-4c1d-bd04-1d7d440b2da7","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"cb6ef6ce-55ca-4c1d-bd04-1d7d440b2da7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ab653b3d-2fda-4d90-8613-115c416d9039","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab653b3d-2fda-4d90-8613-115c416d9039","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"ab653b3d-2fda-4d90-8613-115c416d9039","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"LayerId":{"name":"f1988f66-7798-4cfb-b9c2-b45844550c0d","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","name":"ab653b3d-2fda-4d90-8613-115c416d9039","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"175ef5e0-10dd-4cc3-b16d-ccbfeac19a69",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ef1806f4-1941-489f-993e-9932022953f1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ad9e430-b6a5-4da5-93ff-26b50355210a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"813ac598-5b2a-4bc8-941b-d8deac9f4cbf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee6fa3e9-cec4-4662-83fe-64b78a4f6387",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4858d299-40e3-48eb-b2b0-e59df9ab9a58",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d271f1f0-f9bb-4971-be12-cfd534a1deaf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bb74ea0f-4fc1-4a1c-83d8-35d90a8ee48c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08e5c997-7bef-4a15-b6db-70eb09ddabc0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ecb3d3bd-7f78-4524-a553-5c5798bec356",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cb6ef6ce-55ca-4c1d-bd04-1d7d440b2da7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab653b3d-2fda-4d90-8613-115c416d9039",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_enemy_spitter_attack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -89,7 +56,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"70af5a77-26ee-4309-9062-1436c9d711c5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ab9afd4-0f40-47c9-a30a-9cc37e474f81","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8f185d42-3009-453b-99a0-e5bcdcd02b92","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"175ef5e0-10dd-4cc3-b16d-ccbfeac19a69","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"22ecdd38-aec4-4f32-acc2-795c6de578c3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef1806f4-1941-489f-993e-9932022953f1","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -103,7 +70,7 @@
             {"id":"4c4c0fff-e561-4f95-aa11-9bcb73402b5e","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ecb3d3bd-7f78-4524-a553-5c5798bec356","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e0e23487-6c8e-473c-a10c-c72653e46093","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cb6ef6ce-55ca-4c1d-bd04-1d7d440b2da7","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5dc21d9a-5db5-4faa-a8d0-7ab2c53d9db4","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab653b3d-2fda-4d90-8613-115c416d9039","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -119,22 +86,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_enemy_spitter_attack","path":"sprites/spr_enemy_spitter_attack/spr_enemy_spitter_attack.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_enemy_spitter_attack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d78b21b8-4f67-4d49-8c20-68787f3c5b73","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "enemy sprites",
     "path": "folders/Sprites/enemy sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_enemy_spitter_attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

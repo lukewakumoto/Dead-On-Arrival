@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_weapon_lmg_ultimax",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 122,
   "height": 30,
   "textureGroupId": {
@@ -24,17 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"69590c04-12f4-4d40-9924-01ee68df768d","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69590c04-12f4-4d40-9924-01ee68df768d","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"LayerId":{"name":"4cf41762-a81d-4db7-8f7c-61e33042a903","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"69590c04-12f4-4d40-9924-01ee68df768d","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"LayerId":{"name":"ad9b9fa3-4167-42d0-aa9a-ed45e7909291","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"69590c04-12f4-4d40-9924-01ee68df768d","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"LayerId":{"name":"7309cee3-aedd-4f85-a221-ec93f4f99d1c","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"69590c04-12f4-4d40-9924-01ee68df768d","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"LayerId":{"name":"4a8b3a15-285f-4c09-8ee5-0e13d72eedc8","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"69590c04-12f4-4d40-9924-01ee68df768d","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"LayerId":{"name":"d3a9d7c8-a56b-4c2b-992a-b2ffbf03bc8b","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"69590c04-12f4-4d40-9924-01ee68df768d","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"LayerId":{"name":"67d4661e-afe1-4f5b-bf8d-2d3c4bed03ca","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weapon_lmg_ultimax","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"resourceVersion":"1.0","name":"69590c04-12f4-4d40-9924-01ee68df768d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69590c04-12f4-4d40-9924-01ee68df768d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weapon_lmg_ultimax","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_weapon_lmg_ultimax",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b4530af6-c66b-42a5-b835-8e3f69c53d5f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69590c04-12f4-4d40-9924-01ee68df768d","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -63,27 +62,18 @@
     "yorigin": 17,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weapon_lmg_ultimax","path":"sprites/spr_weapon_lmg_ultimax/spr_weapon_lmg_ultimax.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_weapon_lmg_ultimax",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"4cf41762-a81d-4db7-8f7c-61e33042a903","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"ad9b9fa3-4167-42d0-aa9a-ed45e7909291","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Handle","resourceVersion":"1.0","name":"7309cee3-aedd-4f85-a221-ec93f4f99d1c","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4a8b3a15-285f-4c09-8ee5-0e13d72eedc8","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Magazine","resourceVersion":"1.0","name":"d3a9d7c8-a56b-4c2b-992a-b2ffbf03bc8b","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Hands","resourceVersion":"1.0","name":"67d4661e-afe1-4f5b-bf8d-2d3c4bed03ca","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4cf41762-a81d-4db7-8f7c-61e33042a903","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ad9b9fa3-4167-42d0-aa9a-ed45e7909291","visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7309cee3-aedd-4f85-a221-ec93f4f99d1c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Handle",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4a8b3a15-285f-4c09-8ee5-0e13d72eedc8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d3a9d7c8-a56b-4c2b-992a-b2ffbf03bc8b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Magazine",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"67d4661e-afe1-4f5b-bf8d-2d3c4bed03ca","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Hands",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "player weapon sprites",
     "path": "folders/Sprites/weapon sprites/player weapon sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_weapon_lmg_ultimax",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
