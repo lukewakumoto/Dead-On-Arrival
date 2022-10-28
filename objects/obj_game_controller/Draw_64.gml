@@ -1,4 +1,4 @@
-
+/*
 	draw_set_halign(fa_right)
 	draw_set_font(fnt_health)
 	draw_set_color(c_white)
@@ -8,7 +8,11 @@
 	
 	draw_set_halign(fa_middle)
 	draw_set_valign(fa_middle)
+	*/
 	// when the player dies, create a text effect
+	draw_set_halign(fa_middle)
+	draw_set_valign(fa_middle)
+	
 	if (display_dead_text){
 		
 		dead_text_size += (1 - dead_text_size)/15;
@@ -44,10 +48,10 @@
 		
 		
 	}
-	
+	/*
 	if (wave_delay_timer > 0){
 		draw_text(global.camera_width/2,global.camera_height/4, "Time Until Next Wave: " + string(wave_delay_timer div room_speed))
-	}
+	} */
 	
 
 	

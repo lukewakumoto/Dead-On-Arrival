@@ -49,6 +49,8 @@ win_text = "Congratulations, You Won!"
 show_debug_message("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 money_increment = 10
 
+
+/*
 enemies_per_wave_func = function(wave_num){
 	return ceil(power(wave_num,2.2) + wave_num*random_range(5,8) + random_range(5,10))
 }

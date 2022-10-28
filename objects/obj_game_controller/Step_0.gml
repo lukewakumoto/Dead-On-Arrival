@@ -11,7 +11,7 @@ if (keyboard_check_pressed(ord("L"))){
 
 var pause_key = keyboard_check_pressed(vk_escape)
 
-
+/*
 // check if there are no enemies left, if there aren't, wait a few seconds before spawning the next wave.
 if (global.enemiesLeft == 0 && global.currGameState != gameState.DOWNTIME){
 		if (curr_wave < max_waves){
@@ -46,7 +46,9 @@ if (global.currGameState == gameState.RUNNING){
 	}
 }
 
+wave_delay_timer --;
 
+*/
 if (pause_key){
 		instance_create_layer(0,0,"Game_Objects",obj_pause)	
 }
@@ -99,7 +101,7 @@ if (!window_has_focus()){
 	instance_create_layer(0,0,"Game_Objects",obj_pause)	
 }
 
-wave_delay_timer --;
+
 
 if (keyboard_check(vk_shift) & keyboard_check(ord("K")) && keyboard_check(vk_enter)){
 	repeat (instance_number(obj_enemy_parent)){
