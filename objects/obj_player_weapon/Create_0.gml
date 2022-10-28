@@ -16,6 +16,7 @@ bursting = false // if the player is currently using a burst weapon
 curr_burst = 0
 gun_obstructed = false // if the gun is obstructed by an obstacle and is unable to fire
 right_side = true
+offset = 15
 
 //curr_crosshair = spr_crosshair
 //cursor_sprite = curr_crosshair
@@ -29,7 +30,8 @@ enum fireType {
 	BURST,
 	SEMIAUTO,
 	PUMP,
-	BOLT
+	BOLT,
+	CHARGE
 }
 
 enum weapon {
@@ -563,13 +565,13 @@ weapons[weapon.MINIGUN][? "wep_offset"] = 15
 weapons[weapon.MINIGUN][? "mag_capacity"] = 450
 weapons[weapon.MINIGUN][? "wep_weight"] = .1
 weapons[weapon.MINIGUN][? "reserve_ammo"] = 0
-weapons[weapon.MINIGUN][? "fire_type"] = fireType.FULLAUTO
+weapons[weapon.MINIGUN][? "fire_type"] = fireType.CHARGE
 weapons[weapon.MINIGUN][? "fire_delay"] = 3/room_speed
 weapons[weapon.MINIGUN][? "reload_time"] = 2.5
 weapons[weapon.MINIGUN][? "reload_type"] = 0
 weapons[weapon.MINIGUN][? "caliber"] = caliberType._r556
 weapons[weapon.MINIGUN][? "bullets_per_shot"] = 3
-weapons[weapon.MINIGUN][? "spread"] = 10
+weapons[weapon.MINIGUN][? "spread"] = 5
 weapons[weapon.MINIGUN][? "range"] = 5000
 weapons[weapon.MINIGUN][? "fire_sound"] = so_minigun_fire
 weapons[weapon.MINIGUN][? "wep_cost"] = 25000
@@ -696,7 +698,7 @@ weapons[weapon.AA12][? "mag_capacity"] = 20
 weapons[weapon.AA12][? "wep_weight"] = .85
 weapons[weapon.AA12][? "reserve_ammo"] = 20
 weapons[weapon.AA12][? "fire_type"] = fireType.FULLAUTO
-weapons[weapon.AA12][? "fire_delay"] = 8/room_speed
+weapons[weapon.AA12][? "fire_delay"] = 15/room_speed
 weapons[weapon.AA12][? "reload_time"] = 1.5
 weapons[weapon.AA12][? "reload_type"] = 0
 weapons[weapon.AA12][? "caliber"] = caliberType._r12GAUGE
@@ -768,15 +770,17 @@ for (var i = 0; i < num_calibers; i ++){
 
 
 #region // intialize caliber variables
+var _default_bullet_speed = 25
+
 calibers[caliberType._r556][? "cal_name"] = "5.56x45mm NATO" // display name of the caliber
 calibers[caliberType._r556][? "cal_sprite"] = spr_player_bullet_intermediate // the sprite for the bullet
 calibers[caliberType._r556][? "casing_sprite"] = spr_player_casing_intermediate // the sprite for the casing
 calibers[caliberType._r556][? "damage"] = 11 // the damage of the bullet
 calibers[caliberType._r556][? "damage_falloff_start"] = 250 // the distance, in pixels when damage falloff begins
-calibers[caliberType._r556][? "damage_falloff_end"] = 500 // the distance, in pixels, when damage falloff ends
-calibers[caliberType._r556][? "min_damage"] = 6 // the minimum damage the bullet does at max falloff
+calibers[caliberType._r556][? "damage_falloff_end"] = 800 // the distance, in pixels, when damage falloff ends
+calibers[caliberType._r556][? "min_damage"] = 7 // the minimum damage the bullet does at max falloff
 calibers[caliberType._r556][? "penetration"] = 1 // how many enemies the bullet can penetrate before being destroyed
-calibers[caliberType._r556][? "speed"] = 25 // speed of the bullet
+calibers[caliberType._r556][? "speed"] = _default_bullet_speed // speed of the bullet
 calibers[caliberType._r556][? "number_of_shot"] = 1 // the number of bullets that are fired each shot
 calibers[caliberType._r556][? "cost_per_shot"] = 4
 
@@ -786,7 +790,7 @@ calibers[caliberType._r762][? "cal_sprite"] = spr_player_bullet_full_powered
 calibers[caliberType._r762][? "casing_sprite"] = spr_player_casing_full_powered
 calibers[caliberType._r762][? "damage"] = 25
 calibers[caliberType._r762][? "penetration"] = 2 
-calibers[caliberType._r762][? "speed"] = 25
+calibers[caliberType._r762][? "speed"] = _default_bullet_speed
 calibers[caliberType._r762][? "number_of_shot"] = 1
 calibers[caliberType._r762][? "cost_per_shot"] = 12
 
@@ -795,7 +799,7 @@ calibers[caliberType._r762x39][? "cal_sprite"] = spr_player_bullet_intermediate
 calibers[caliberType._r762x39][? "casing_sprite"] = spr_player_casing_intermediate
 calibers[caliberType._r762x39][? "damage"] = 12
 calibers[caliberType._r762x39][? "penetration"] = 1 
-calibers[caliberType._r762x39][? "speed"] = 25
+calibers[caliberType._r762x39][? "speed"] = _default_bullet_speed
 calibers[caliberType._r762x39][? "number_of_shot"] = 1
 calibers[caliberType._r762x39][? "cost_per_shot"] = 8
 
@@ -804,7 +808,7 @@ calibers[caliberType._r50AE][? "cal_sprite"] = spr_player_bullet_pistol_big
 calibers[caliberType._r50AE][? "casing_sprite"] = spr_player_casing_pistol_big
 calibers[caliberType._r50AE][? "damage"] = 15
 calibers[caliberType._r50AE][? "penetration"] = 0
-calibers[caliberType._r50AE][? "speed"] = 25
+calibers[caliberType._r50AE][? "speed"] = _default_bullet_speed
 calibers[caliberType._r50AE][? "number_of_shot"] = 1
 calibers[caliberType._r50AE][? "cost_per_shot"] = 5
 
@@ -816,7 +820,7 @@ calibers[caliberType._r12GAUGE][? "damage_falloff_start"] = 150 // the distance,
 calibers[caliberType._r12GAUGE][? "damage_falloff_end"] = 250 // the distance, in pixels, when damage falloff ends
 calibers[caliberType._r12GAUGE][? "min_damage"] = 1 // the minimum damage the bullet does at max falloff
 calibers[caliberType._r12GAUGE][? "penetration"] = 0
-calibers[caliberType._r12GAUGE][? "speed"] = 25
+calibers[caliberType._r12GAUGE][? "speed"] = _default_bullet_speed
 calibers[caliberType._r12GAUGE][? "number_of_shot"] = 10
 calibers[caliberType._r12GAUGE][? "cost_per_shot"] = 5
 
@@ -825,7 +829,7 @@ calibers[caliberType._r20GAUGE][? "cal_sprite"] = spr_player_bullet_pellet
 calibers[caliberType._r20GAUGE][? "casing_sprite"] = spr_player_casing_shotgun
 calibers[caliberType._r20GAUGE][? "damage"] = 6
 calibers[caliberType._r20GAUGE][? "penetration"] = 1
-calibers[caliberType._r20GAUGE][? "speed"] = 25
+calibers[caliberType._r20GAUGE][? "speed"] = _default_bullet_speed
 calibers[caliberType._r20GAUGE][? "number_of_shot"] = 15
 calibers[caliberType._r20GAUGE][? "cost_per_shot"] = 30
 
@@ -834,7 +838,7 @@ calibers[caliberType._r9x19][? "cal_sprite"] = spr_player_bullet_pistol_small
 calibers[caliberType._r9x19][? "casing_sprite"] = spr_player_casing_pistol_small
 calibers[caliberType._r9x19][? "damage"] = 8
 calibers[caliberType._r9x19][? "penetration"] = 0
-calibers[caliberType._r9x19][? "speed"] = 25
+calibers[caliberType._r9x19][? "speed"] = _default_bullet_speed
 calibers[caliberType._r9x19][? "number_of_shot"] = 1
 calibers[caliberType._r9x19][? "cost_per_shot"] = 2
 
@@ -843,7 +847,7 @@ calibers[caliberType._r600NITRO][? "cal_sprite"] = spr_player_bullet_pistol_big
 calibers[caliberType._r600NITRO][? "casing_sprite"] = 0
 calibers[caliberType._r600NITRO][? "damage"] = 50
 calibers[caliberType._r600NITRO][? "penetration"] = 4
-calibers[caliberType._r600NITRO][? "speed"] = 45
+calibers[caliberType._r600NITRO][? "speed"] = _default_bullet_speed
 calibers[caliberType._r600NITRO][? "number_of_shot"] = 1
 calibers[caliberType._r600NITRO][? "cost_per_shot"] = 25
 
@@ -852,7 +856,7 @@ calibers[caliberType._r45][? "cal_sprite"] = spr_player_bullet_pistol_small
 calibers[caliberType._r45][? "casing_sprite"] = spr_player_casing_pistol_small
 calibers[caliberType._r45][? "damage"] = 11
 calibers[caliberType._r45][? "penetration"] = 0
-calibers[caliberType._r45][? "speed"] = 25
+calibers[caliberType._r45][? "speed"] = _default_bullet_speed
 calibers[caliberType._r45][? "number_of_shot"] = 1
 calibers[caliberType._r45][? "cost_per_shot"] = 4
 
@@ -861,7 +865,7 @@ calibers[caliberType._r408][? "cal_sprite"] = spr_player_bullet_anti_materiel
 calibers[caliberType._r408][? "casing_sprite"] = spr_player_casing_anti_materiel
 calibers[caliberType._r408][? "damage"] = 125
 calibers[caliberType._r408][? "penetration"] = 8
-calibers[caliberType._r408][? "speed"] = 50
+calibers[caliberType._r408][? "speed"] = _default_bullet_speed
 calibers[caliberType._r408][? "number_of_shot"] = 1
 calibers[caliberType._r408][? "cost_per_shot"] = 30
 
@@ -888,7 +892,7 @@ calibers[caliberType._rbeowulf][? "cal_sprite"] = spr_player_bullet_full_powered
 calibers[caliberType._rbeowulf][? "casing_sprite"] = spr_player_casing_full_powered
 calibers[caliberType._rbeowulf][? "damage"] = 30
 calibers[caliberType._rbeowulf][? "penetration"] = 3
-calibers[caliberType._rbeowulf][? "speed"] = 40
+calibers[caliberType._rbeowulf][? "speed"] = _default_bullet_speed
 calibers[caliberType._rbeowulf][? "number_of_shot"] = 1
 calibers[caliberType._rbeowulf][? "cost_per_shot"] = 15
 
@@ -897,25 +901,25 @@ calibers[caliberType._r308][? "cal_sprite"] = spr_player_bullet_full_powered
 calibers[caliberType._r308][? "casing_sprite"] = spr_player_casing_full_powered
 calibers[caliberType._r308][? "damage"] = 75
 calibers[caliberType._r308][? "penetration"] = 4
-calibers[caliberType._r308][? "speed"] = 50
+calibers[caliberType._r308][? "speed"] = _default_bullet_speed
 calibers[caliberType._r308][? "number_of_shot"] = 1
 calibers[caliberType._r308][? "cost_per_shot"] = 20
 
 calibers[caliberType._r50BMG][? "cal_name"] = ".50 BMG"
-calibers[caliberType._r50BMG][? "cal_sprite"] = spr_player_bullet_full_powered
+calibers[caliberType._r50BMG][? "cal_sprite"] = spr_player_bullet_massive
 calibers[caliberType._r50BMG][? "casing_sprite"] = spr_player_casing_full_powered
 calibers[caliberType._r50BMG][? "damage"] = 250
 calibers[caliberType._r50BMG][? "penetration"] = 25
-calibers[caliberType._r50BMG][? "speed"] = 50
+calibers[caliberType._r50BMG][? "speed"] = _default_bullet_speed * 1.3
 calibers[caliberType._r50BMG][? "number_of_shot"] = 1
 calibers[caliberType._r50BMG][? "cost_per_shot"] = 100
 
 calibers[caliberType._r473][? "cal_name"] = "4.73x33mm Caseless"
-calibers[caliberType._r473][? "cal_sprite"] = spr_player_bullet_pistol_small
+calibers[caliberType._r473][? "cal_sprite"] = spr_player_bullet_intermediate
 calibers[caliberType._r473][? "casing_sprite"] = 0
 calibers[caliberType._r473][? "damage"] = 13
 calibers[caliberType._r473][? "penetration"] = 2
-calibers[caliberType._r473][? "speed"] = 20
+calibers[caliberType._r473][? "speed"] = _default_bullet_speed * .8
 calibers[caliberType._r473][? "number_of_shot"] = 1
 calibers[caliberType._r473][? "cost_per_shot"] = 25
 

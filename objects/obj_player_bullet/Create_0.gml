@@ -9,6 +9,11 @@ start_pos = [x,y]
 falloff_start = 0
 falloff_end = 0
 damage_min = 0
+damage_max = 0
+image_xscale = 2
+image_yscale = 1.4
+
+
 
 enemies_hit = ds_list_create()
 

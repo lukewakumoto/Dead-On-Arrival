@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "so_rifle_reload1",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "Gun Sounds",
     "path": "folders/Sounds/Gun Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "so_rifle_reload1",
-  "tags": [],
-  "resourceType": "GMSound",
 }

@@ -1,6 +1,7 @@
 1. Reduce player movement when they are firing for certain weapon catergories
 2. Damage falloff
 3. Add "Special" weapons that are cooldown (minigun)
+- Damage Threshold for enemeis
 - Random penetration
 - Armor
 - Special items (health packs, buffs, etc.)

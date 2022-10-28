@@ -26,4 +26,11 @@ function scr_draw_enemy_healthbar(_x, _y, _width, _height, _max_health, _curr_he
 	}
 						 
 	draw_set_alpha(1)
+	
+	var _num_bars = floor(_max_health/5)
+	for (var i = _x_left + _width/_num_bars; i < _x_right; i += _width/_num_bars){
+		draw_set_color(c_black)
+		draw_line(i, _y_up, i, _y_down)
+		draw_set_color(c_white)
+	}
 }

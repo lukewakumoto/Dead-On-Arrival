@@ -56,6 +56,7 @@ if (global.playerIsDead){
 	#region //death texts
 	if (death_text == ""){
 		death_texts = [
+		"Your situation is quite grave, I fear",
 		"You Died",
 		"You Died Messily",
 		"You were slain...",
@@ -82,7 +83,9 @@ if (global.playerIsDead){
 		"Wasted",
 		"Zombies: 1, You: " + string(global.totalKills),
 		"Cowabummer",
-		"MY FIGHT MONEY!"]
+		"MY FIGHT MONEY!",
+		"Come back in 10 years!",
+		"You need a bigger gun..."]
 		death_text = death_texts[irandom_range(0,array_length(death_texts) - 1)]	
 	}
 	#endregion

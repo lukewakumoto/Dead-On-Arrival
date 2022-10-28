@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "so_dog_hurt",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "so_dog_hurt",
-  "tags": [],
-  "resourceType": "GMSound",
 }

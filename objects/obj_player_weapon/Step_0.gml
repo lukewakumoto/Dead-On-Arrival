@@ -2,13 +2,18 @@
 
 // correctly position the firearm
 if (global.currGameState != gameState.PAUSED){
+
+
 if (owner != noone){
+	
 	if (right_side){
-		var offset = 15
+		offset = 15
 	}
 	else{
-		var offset = -15	
+		offset = -15	
 	}
+	
+
 	
 	
 	x = owner.x + lengthdir_x(offset,owner.direction - 90) + lengthdir_x(weapon_offset,owner.direction)
@@ -103,7 +108,9 @@ if (((fire && ammunition[weapon_id][0] > 0 && canShoot)
 		
 		
 		// shake the camera a bit
-		global.camera_shake = 2.5
+		var _amount_to_shake = caliber_damage/5
+		_amount_to_shake = clamp(_amount_to_shake, 1.5, 7)
+		global.camera_shake = _amount_to_shake
 	}
 	
 	

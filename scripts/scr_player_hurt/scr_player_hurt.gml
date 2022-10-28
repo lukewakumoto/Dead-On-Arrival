@@ -6,6 +6,8 @@ function scr_player_hurt(player_id, damage){
 	if (instance_exists(player_id)){
 		player_id.curr_hp -= ceil(damage)	
 		audio_play_sound(so_player_hit, 1, false);
+		var num = instance_create_layer(player_id.x + random_range(-25,25), player_id.y, "UI", obj_damage_number)
+		num.damage_number_amount = round(ceil(damage))
 	}
 	
 	// spawn blood

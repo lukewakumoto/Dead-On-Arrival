@@ -19,6 +19,8 @@ global.moneyToAddTimer = 0;
 global.playerIsDead = false
 global.totalKills = 0
 global.enemiesLeft = 0
+global.worldXBound = 2500
+global.worldYBound = 2110
 
 favWeaponStruct = function(favoriteName, favoriteIcon,favoriteKills) constructor
 {

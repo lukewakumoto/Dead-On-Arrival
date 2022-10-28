@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "ts_suburb",
   "spriteId": {
     "name": "tileset2",
     "path": "sprites/tileset2/tileset2.yy",
@@ -55,8 +58,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ts_suburb",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

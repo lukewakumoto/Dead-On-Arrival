@@ -11,7 +11,7 @@ else{ // if the player is reloading, play the reloading animation
 }
 
 
-draw_set_alpha(0.7)
+draw_set_alpha(0.95)
 if (weapon_type != weaponType.MELEE){
 	scr_draw_laser(x + lengthdir_x(sprite_width/2,image_angle) ,y + lengthdir_y(sprite_width/2,image_angle)
 				,image_angle,5000,c_yellow)
@@ -26,12 +26,6 @@ draw_set_alpha(1.0)
 // Draw crosshair
 if (!reloading){
 	//cursor_sprite = curr_crosshair	
-	if (right_side){
-		var offset = 15
-	}
-	else{
-		var offset = -15	
-	}
 	
 	var crosshair = noone
 	
@@ -53,6 +47,11 @@ if (!reloading){
 		
 		draw_circle(x + lengthdir_x(_dmg_fall_start, image_angle), y + lengthdir_y(_dmg_fall_start, image_angle), 10, false)
 		draw_circle(x + lengthdir_x(_dmg_fall_end, image_angle), y + lengthdir_y(_dmg_fall_end, image_angle), 10, false)
+	
+		if (instance_exists(obj_enemy_parent)){
+			draw_line(x, y, obj_enemy_parent.x, obj_enemy_parent.y)
+		}
+		
 	}
 }
 

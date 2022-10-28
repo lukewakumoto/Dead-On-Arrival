@@ -3,6 +3,7 @@
 damage_number_amount = 0
 starting_alpha = 1
 alpha_reduction_rate = 0.1
+is_critical_hit = false
 
 random_rotation_to = random_range(-15,15)
 

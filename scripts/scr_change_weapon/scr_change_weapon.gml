@@ -31,7 +31,7 @@ function scr_change_weapon(wep_index){
 	caliber_damage = curr_caliber[? "damage"]
 	caliber_falloff_start = curr_caliber[? "damage_falloff_start"]
 	caliber_falloff_end = curr_caliber[? "damage_falloff_end"]
-	caliber_damage_min = curr_caliber[? "damage_min"]
+	caliber_damage_min = curr_caliber[? "min_damage"]
 	caliber_penetration = curr_caliber[? "penetration"]
 	caliber_speed = curr_caliber[? "speed"]
 	caliber_num_shot = curr_caliber[? "number_of_shot"]

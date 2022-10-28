@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "so_ambience",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -12,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "so_ambience.wav",
-  "duration": 51.1257935,
+  "duration": 51.125793,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "so_ambience",
-  "tags": [],
-  "resourceType": "GMSound",
 }

@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_obstacle_rubble",
   "spriteId": {
     "name": "spr_rubble",
     "path": "sprites/spr_rubble/spr_rubble.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Obstacles",
     "path": "folders/Objects/Obstacles.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_obstacle_rubble",
-  "tags": [],
-  "resourceType": "GMObject",
 }

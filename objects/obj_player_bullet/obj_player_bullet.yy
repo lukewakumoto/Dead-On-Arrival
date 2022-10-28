@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_player_bullet",
   "spriteId": {
-    "name": "spr_player_bullet_intermediate",
-    "path": "sprites/spr_player_bullet_intermediate/spr_player_bullet_intermediate.yy",
+    "name": "spr_player_bullet_intermediate_u",
+    "path": "sprites/spr_player_bullet_intermediate_u/spr_player_bullet_intermediate_u.yy",
   },
   "solid": false,
   "visible": true,

@@ -18,15 +18,15 @@ var cam_hh = cam_h*.5;
 if (follow != noone && instance_exists(follow)){
 	//xTo = follow.x;
 	//yTo = follow.y;
-	xTo = clamp(follow.x - cam_w/2, 0,room_width - cam_ww);
-	yTo = clamp(follow.y - cam_h/2, 0,room_height - cam_hh);
+	xTo = clamp(follow.x - cam_w/2, 0,global.worldXBound - cam_ww);
+	yTo = clamp(follow.y - cam_h/2, 0,global.worldYBound - cam_hh);
 }
 
 
 
 
-x = clamp(x + random_range(-global.camera_shake,global.camera_shake), global.camera_width/2, room_width-(global.camera_width/2));
-y = clamp(y + random_range(-global.camera_shake,global.camera_shake), global.camera_height/2, room_height-(global.camera_height/2));
+x = clamp(x + random_range(-global.camera_shake,global.camera_shake), global.camera_width/2, global.worldXBound-(global.camera_width/2));
+y = clamp(y + random_range(-global.camera_shake,global.camera_shake), global.camera_height/2, global.worldYBound-(global.camera_height/2));
 
 // reduce camera shake
 global.camera_shake += (0 - global.camera_shake)/25;
