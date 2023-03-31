@@ -27,6 +27,7 @@ max_hp = 100
 hp = max_hp
 
 
+
 corpse_sprite = noone
 // variables dicating how the enemy will attack
 attack_delay = 1
@@ -34,12 +35,18 @@ can_attack = true
 idle_sprite = noone
 attack_animation = noone
 attack_func = noone
+die_func = noone
 damage = 0
 
 
 was_spawned = false // determines if it was spawned by the car, which determines if it can drop money
 coin_type = 0
 value = 10 // how much money they drop when killed
+
+if (was_spawned){
+	max_hp /= 2
+}
+
 
 
 hurt_sound = so_zombie_hit

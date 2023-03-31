@@ -18,9 +18,11 @@ global.moneyToAdd = 0
 global.moneyToAddTimer = 0;
 global.playerIsDead = false
 global.totalKills = 0
+global.totalShots = 0
 global.enemiesLeft = 0
 global.worldXBound = 2500
 global.worldYBound = 2110
+
 
 favWeaponStruct = function(favoriteName, favoriteIcon,favoriteKills) constructor
 {
@@ -45,31 +47,12 @@ death_text = ""
 
 win_text_size = 10
 win_text = "Congratulations, You Won!"
+win_text_updated = false
 
 show_debug_message("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 money_increment = 10
 
-
-/*
-enemies_per_wave_func = function(wave_num){
-	return ceil(power(wave_num,2.2) + wave_num*random_range(5,8) + random_range(5,10))
-}
-
-
-max_enemies_spawn = function(wave_num){
-	return ceil(enemies_per_wave_func(wave_num)/2)
-}
-
-wave_progress = 9
-max_waves = 10
-curr_wave = 9
-wave_delay = 5 * room_speed
-spawn_delay = .45 * room_speed
-wave_delay_timer = wave_delay
-
-
-
-
-
-
-// Create 
+// debugging variables
+global.total_damage = 0
+global.running_damage = 0
+global.dps_timer = 0

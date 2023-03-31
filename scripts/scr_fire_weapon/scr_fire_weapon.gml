@@ -5,7 +5,7 @@ function scr_fire_weapon(x,y, dir){
 	//spawn bullet(s)
 	repeat(caliber_num_shot){
 		
-		var new_bullet = instance_create_layer(x,y,"Bullets",obj_player_bullet);
+		var new_bullet = instance_create_layer(x + lengthdir_x(10,dir),y + lengthdir_y(10,dir),"Bullets",obj_player_bullet);
 		
 		new_bullet.speed = caliber_speed
 		new_bullet.bullet_spread = irandom_range(-weapon_spread, weapon_spread) // add random spread to the weapon
@@ -20,12 +20,15 @@ function scr_fire_weapon(x,y, dir){
 		new_bullet.falloff_start = is_undefined(caliber_falloff_start) ? 0 : caliber_falloff_start
 		new_bullet.falloff_end = is_undefined(caliber_falloff_end) ? 0 : caliber_falloff_end
 		new_bullet.damage_min = is_undefined(caliber_damage_min) ? caliber_damage : caliber_damage_min
-		
+		if (!is_undefined(on_hit)){
+			new_bullet.on_hit = on_hit	
+		}
 	}
 	
 	// create muzzle flash if it's a firearm
 	if (weapon_type != weaponType.MELEE){
-		scr_create_muzzle_flash(x + lengthdir_x(sprite_width,dir),y + lengthdir_y(sprite_width,dir),dir)	
+		scr_create_muzzle_flash(x + lengthdir_x(sprite_width,dir),y + lengthdir_y(sprite_width,dir),dir)
+		global.totalShots += 1
 	}
 
 	

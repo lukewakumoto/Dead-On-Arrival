@@ -35,11 +35,11 @@ if (toggle && !global.playerIsDead){
 
 if (menu_active){
 		if (keyboard_check_pressed(ord("E"))){
-			curr_menu = (curr_menu + 1) % 3
+			curr_menu = (curr_menu + 1) % num_menus
 			
 		}
 		if (keyboard_check_pressed(ord("Q"))){
-			curr_menu = (curr_menu - 1 + 3) % 3
+			curr_menu = (curr_menu - 1 + num_menus) % num_menus
 		}
 }
 

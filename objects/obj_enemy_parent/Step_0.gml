@@ -8,8 +8,9 @@ if (!global.playerIsDead){
 
 
 
+/*
 if (hp <= 0){
 	scr_enemy_die(x,y,id,false)	
 }
-
+*/
 

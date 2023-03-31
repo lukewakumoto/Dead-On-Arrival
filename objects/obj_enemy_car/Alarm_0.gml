@@ -5,7 +5,7 @@ if (!place_meeting(x,y,obj_obstacle)){
 		global.enemiesLeft++
 	with(instance_create_layer(x,y,"Enemies",enemy_choice[irandom_range(0,array_length(enemy_choice) - 1)])){
 		was_spawned = true // enemies spawned in this manner cannot drop coins	
-		
+		hp = max_hp/2
 	}
 	
 	

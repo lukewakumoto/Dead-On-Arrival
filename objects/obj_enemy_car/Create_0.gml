@@ -18,7 +18,7 @@ image_yscale = image_xscale
 
 value = 15
 coin_type = 2
-
+die_func = function(){ scr_create_explosion_particle(x,y,100) }
 
 
 myEmitter = 0;

@@ -19,7 +19,7 @@ with (player_weapon){
 }
 #endregion
 
-max_hp = 250
+max_hp = 300
 curr_hp = max_hp
 regen_health_rate = 4 // health regenerated per second
 

@@ -103,6 +103,14 @@ if (!window_has_focus()){
 
 
 
+
+
+
+
+
+
+// debugging stuff
+
 if (keyboard_check(vk_shift) & keyboard_check(ord("K")) && keyboard_check(vk_enter)){
 	repeat (instance_number(obj_enemy_parent)){
 		scr_enemy_hurt(obj_enemy_parent,9999)
@@ -115,11 +123,26 @@ if (keyboard_check(vk_shift)){
 			instance_create_layer(obj_player.x,obj_player.y,"Instances",obj_money)	
 		}
 	}
+	
+	if (keyboard_check_pressed(ord("L"))){
+		repeat(100){
+			var _rand_x = random(1000)
+			var _rand_y = random(1000)
+			
+			instance_create_layer(_rand_x,_rand_y,"Enemies",choose(obj_enemy, obj_enemy_animal, obj_enemy_boomer, obj_enemy_car, obj_enemy_crawler, obj_enemy_spitter))
+		}
+	}
+	
+	if (keyboard_check_pressed(ord("D"))){
+		global.total_damage = 0
+		global.running_damage = 0
+		global.dps_timer = 0
+	}
 }
 
 
 
 /*
 if (mouse_check_button_pressed(mb_left)){
-		scr_create_explosion(mouse_x,mouse_y,200,100,.009)
+		scr_create_explosion(mouse_x,mouse_y,200,100,0.5, 5)
 }

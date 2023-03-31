@@ -25,10 +25,20 @@ if (owner != noone){
 
 }
 
+if (keyboard_check_pressed(ord("C"))){
+	if (!is_undefined(alternate_id)){
+		scr_toggle_alt(alternate_id)
+	}
+}
+
 
 // allow the player to fire if they click and they have ammunition
-#region // firing
-if (fire_type == fireType.FULLAUTO && ammunition[weapon_id][0] != 0){
+#region // firing\
+
+if ((fire_type == fireType.FULLAUTO) && ammunition[weapon_id][0] != 0){
+	var fire = mouse_check_button(mb_left)
+}
+else if (fire_type == fireType.CHARGE){
 	var fire = mouse_check_button(mb_left)
 }
 else{
@@ -46,24 +56,63 @@ else{
 	gun_obstructed = false	
 }
 		
+#region // functionality for burst fire
 if (fire && canShoot) { // make it impossible to fire while already bursting
 	if (fire_type == fireType.BURST){
-	if (bursting == false){
-		bursting = true
-		curr_burst = 3
+		if (bursting == false){
+			bursting = true
+			curr_burst = 3
+		}
+		else{
+			fire = false	
+		}
 	}
-	else{
-		fire = false	
-	}
-}
 }
 
-if (fire && ammunition[weapon_id][0] <= 0 && canShoot){
+firing = fire
+#endregion
+#region // functionality for charge weapons
+var _charge_rate = 2
+if(fire_type == fireType.CHARGE){
+	
+	image_speed = lerp(curr_charge, max_charge, curr_charge/max_charge)
+	
+	if (curr_charge != 0 and !audio_is_playing(so_minigun_charge)){
+		audio_play_sound(so_minigun_charge_2, 0, false, 1, 0.4, lerp(0.4, 1, curr_charge/max_charge))
+	}
+	if (curr_charge == 0){
+		audio_stop_sound(so_minigun_charge_2)
+	}
+		
+	if (firing && !reloading){
+		curr_charge += _charge_rate
+	}
+	
+	
+	
+	if (curr_charge < max_charge){
+		fire = false
+	}
+}
+
+
+if (!firing || reloading){
+	curr_charge -= _charge_rate
+}
+
+curr_charge = clamp(curr_charge, 0, max_charge)
+
+#endregion 
+
+if (fire && ammunition[weapon_id][0] <= 0 && canShoot && fire_type != fireType.CHARGE){
 	audio_play_sound(so_dry_fire,1,false)	
 }
+
 is_firing = false
-if (((fire && ammunition[weapon_id][0] > 0 && canShoot)
-	|| (canShoot && bursting && curr_burst > 0 && ammunition[weapon_id][0] > 0))
+is_empty = ammunition[weapon_id][0] <= 0
+
+if (((fire && !is_empty && canShoot)
+	|| (canShoot && bursting && curr_burst > 0 && !is_empty > 0))
 	&& !gun_obstructed){
 		
 	is_firing = true
@@ -76,6 +125,7 @@ if (((fire && ammunition[weapon_id][0] > 0 && canShoot)
 		image_index = 0
 		image_speed = 0
 	} else{
+		
 		if (bursting){ 
 			curr_burst --	
 		} 
@@ -95,7 +145,7 @@ if (((fire && ammunition[weapon_id][0] > 0 && canShoot)
 			if (fire_type == fireType.BOLT){
 				src = time_source_create(time_source_game, 0.5, time_source_units_seconds, scr_create_casing, [id], 1)
 				time_source_start(src)
-			} else{
+			} else if (fire_type != fireType.SINGLESHOT){
 				scr_create_casing(id)
 			}
 			scr_fire_weapon(x, y,direction)	
@@ -116,7 +166,7 @@ if (((fire && ammunition[weapon_id][0] > 0 && canShoot)
 	
 }
 
-if (curr_burst <= 0 || ammunition[weapon_id][0] <= 0){
+if (curr_burst <= 0 || is_empty){
 	bursting = false	
 }
 
@@ -132,7 +182,8 @@ var reload = keyboard_check_pressed(ord("R"))
 if (fire && (ammunition[weapon_id][0] == 0)){
 	reload = true	
 }
-if (reload && !reloading && ammunition[weapon_id][0] < magazine_capacity + 1 && ammunition[weapon_id][1] > 0 && canShoot){
+var _reload_max_capacity = fire_type == fireType.SINGLESHOT ? 1 : magazine_capacity + 1
+if (reload && !reloading && ammunition[weapon_id][0] < _reload_max_capacity && ammunition[weapon_id][1] > 0 && canShoot){
 	reloading = true
 	image_index = 0
 	
@@ -140,7 +191,12 @@ if (reload && !reloading && ammunition[weapon_id][0] < magazine_capacity + 1 && 
 		audio_play_sound(weapon_reload_sound,1,false)
 	}
 	
-	//scr_create_reload_wheel(mouse_x + lengthdir_x(offset,owner.direction - 90), mouse_y + lengthdir_y(offset,owner.direction - 90))
+		
+	if (fire_type == fireType.SINGLESHOT){
+		src = time_source_create(time_source_game, 0.5, time_source_units_seconds, scr_create_casing, [id], 1)
+		time_source_start(src)	
+	}
+	
 	scr_create_reload_wheel(mouse_x,mouse_y)
 
 	if (reload_type == 0){
@@ -158,6 +214,10 @@ var flip_gun = keyboard_check_pressed(ord("T"))
 if (flip_gun){
 	right_side = !right_side	
 }
+}
+/*
+if (keyboard_check_pressed(ord("O"))){
+	for (var
 }
 
 

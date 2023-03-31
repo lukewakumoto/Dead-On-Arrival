@@ -12,6 +12,7 @@ damage_min = 0
 damage_max = 0
 image_xscale = 2.2
 image_yscale = 1.5
+on_hit = noone
 
 
 

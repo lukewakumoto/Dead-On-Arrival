@@ -12,6 +12,7 @@ if (ammunition[weapon_id][0] <= 0 && ammunition[weapon_id][1] <= 0){
 	draw_set_valign(fa_top)
 }
 
+draw_text(100, 100, "CHARGE " + string(curr_charge) + "/" + string(max_charge))
 /*
 var scale_factor = 0.25
 var icon_biggest_width = sprite_get_width(spr_weapon_sniper_intervention_silhouette)

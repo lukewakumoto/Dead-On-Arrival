@@ -21,8 +21,9 @@ if (weapon_type != weaponType.MELEE){
 draw_set_alpha(1.0)
 
 
-
-
+//draw_text(x,y,alternate_id)
+//show_debug_message(alternate_id)
+show_debug_message(weapons[25][? "alt_id"])
 
 // Draw crosshair
 if (!reloading){

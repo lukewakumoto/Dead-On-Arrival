@@ -37,6 +37,12 @@
 		win_text_size += (1 - win_text_size)/25;
 		win_text_size = max(win_text_size,1)
 		
+		if (not win_text_updated){
+			win_text = win_text +  "\n You've fired a total of " + string(global.totalShots) + " rounds!"
+			win_text_updated = true
+		}
+		
+		
 		draw_set_font(fnt_game_over)
 		
 		draw_text_transformed(global.camera_width/2,global.camera_height*(5/8),win_text,win_text_size,win_text_size,0)
@@ -107,3 +113,16 @@ if (keyboard_check(vk_shift) && keyboard_check_pressed(ord("T"))){
 		room_speed = 60	
 	}
 }
+
+draw_set_halign(fa_middle)
+draw_text(global.camera_width/2, 0, "DAMAGE: " + string(global.total_damage))
+if (global.dps_timer != 0){
+	var _dps_time = round((current_time - global.dps_timer)/ 1000)
+	var _dps = global.running_damage/_dps_time
+	draw_text(global.camera_width/2, 50, "DPS: " + string(_dps))
+}
+
+draw_set_halign(fa_left)
+
+
+

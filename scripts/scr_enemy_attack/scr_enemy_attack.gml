@@ -23,7 +23,8 @@ function scr_enemy_attack(){
 	attack_function_boomer = function(dmg){
 		audio_sound_pitch(so_explosion,random_range(.8,1.2))
 		audio_play_sound_on(myEmitter,so_explosion,0,3);
-		scr_create_explosion(x,y,300,dmg, .003)
+		scr_create_explosion(x,y,200,dmg, .5,0)
+		scr_enemy_hurt(id, max_hp)
 		
 	}
 	

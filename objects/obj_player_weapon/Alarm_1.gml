@@ -12,6 +12,7 @@ if (reloading){
 	ammunition[weapon_id][0] += bullets_to_add
 
 	reloading = false
+
 	
 	image_speed = 0 // make sure the weapon doesn't animate at the end of reloading
 	image_index = 0

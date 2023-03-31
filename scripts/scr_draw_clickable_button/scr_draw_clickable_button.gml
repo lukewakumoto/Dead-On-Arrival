@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 // draw a clickable button with the text centered
-function scr_draw_clickable_button(xx, yy, string, font, horizontal_padding, vertical_padding, onClick = noone, onHover = noone){
+function scr_draw_clickable_button(xx, yy, string, font, horizontal_padding, vertical_padding, onClick = noone, onHover = noone, param1 = noone){
 	
 
 
@@ -36,7 +36,7 @@ function scr_draw_clickable_button(xx, yy, string, font, horizontal_padding, ver
 	
 	if (hover && mouse_check_button_pressed(mb_left)){
 		if (onClick != noone){
-			onClick()	// anonymous function that will run when the button is clicked
+			onClick(param1)	// anonymous function that will run when the button is clicked
 		}
 	}
 		

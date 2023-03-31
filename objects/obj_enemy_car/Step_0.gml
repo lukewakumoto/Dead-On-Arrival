@@ -21,11 +21,13 @@ if (instance_exists(obj_player)){
 
 spawn_delay = lerp(2.5,5.0,hp/max_hp) // as health gets lower, the rate between spawning enemies increases
 
-
+/*
 if (hp <= 0){
 	scr_create_explosion_particle(x,y,100)
 	scr_enemy_die(x,y,id,false)	
 }
+*/
+
 
 // move the emitter so it follows the car
 audio_emitter_position(myEmitter, x, y, 0)

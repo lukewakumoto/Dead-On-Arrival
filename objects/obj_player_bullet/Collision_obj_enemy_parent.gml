@@ -20,4 +20,8 @@ if (ds_list_find_index(enemies_hit,other) == -1 and other.hp > 0){
 	
 	//damage *= 0.95 // decrease damage slightly
 	damage = ceil(damage)
+	
+	if (on_hit != noone){
+		on_hit(x, y, id)	
+	}
 }

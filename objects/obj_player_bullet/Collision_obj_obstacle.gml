@@ -5,3 +5,7 @@ _spark.direction = direction - 180
 if (penetration < 100 && distance_to_point(xstart,ystart) > dist_to_visible){
 	instance_destroy();
 }
+
+if (on_hit != noone){
+	on_hit(x, y, id)	
+}

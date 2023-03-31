@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="BIG CHAIN GUN - Heavy Artillery Automatic Weapon - Shoot Mechanism Start    [002579]_data" version="1.3.0" audacityversion="2.2.2" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="994.3652635068" rate="96000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="COMMENTS" value="Futuristic Sci-Fi Science Fiction Future Weapons of War Warfare Lasers"/>
+		<tag name="Software" value="Soundminer"/>
+		<tag name="YEAR" value="2018-06-22"/>
+		<tag name="Copyright" value="2018  "/>
+		<tag name="GENRE" value="Weapons"/>
+	</tags>
+	<wavetrack name="BIG CHAIN GUN - Heavy Artillery Automatic Weapon - Shoot Mechanism Start    [002579]" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="96000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="40839">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808149.au" len="40839" min="-0.396464" max="0.42765" rms="0.100095"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="BIG CHAIN GUN - Heavy Artillery Automatic Weapon - Shoot Mechanism Start    [002579]" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="96000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="40839">
+				<waveblock start="0">
+					<simpleblockfile filename="e080851d.au" len="40839" min="-0.373354" max="0.333204" rms="0.094918"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

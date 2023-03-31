@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_enemy_die(x_origin,y_origin,enemy,by_explosion,coin_type){
+function scr_enemy_die(x_origin,y_origin,enemy,by_explosion,coin_type, die_function=noone){
 	
 	if (!by_explosion){ // if the death was caused by an explosion, we want to spawn a blood smear and gibs instead of a regular corpse
 		var corpse = instance_create_layer(enemy.x,enemy.y,"Corpses",obj_corpse);
@@ -14,10 +14,6 @@ function scr_enemy_die(x_origin,y_origin,enemy,by_explosion,coin_type){
 		
 		if (!was_spawned){
 		scr_drop_money(x_origin,y_origin,enemy.value,enemy.coin_type) // only drop money if they aren't killed by an explosion or if it wasn't spawned by a car
-		}
-		if (instance_exists(obj_player_weapon)){
-			global.weapon_kills[obj_player_weapon.weapon_id] ++	
-			//show_debug_message("Another kill for " + string(obj_player_weapon.weapon_id) + "For a total of " + string(global.weapon_kills[obj_player_weapon.weapon_id]))
 		}
 		
 		instance_destroy(enemy)
@@ -37,6 +33,17 @@ function scr_enemy_die(x_origin,y_origin,enemy,by_explosion,coin_type){
 		scr_drop_money(x_origin,y_origin,enemy.value,enemy.coin_type)
 		instance_destroy(enemy)
 	}
+	
+	if (die_function != noone){
+		die_function()	
+	}
+	
+	
+	if (instance_exists(obj_player_weapon)){
+		global.weapon_kills[obj_player_weapon.weapon_id] ++	
+		//show_debug_message("Another kill for " + string(obj_player_weapon.weapon_id) + "For a total of " + string(global.weapon_kills[obj_player_weapon.weapon_id]))
+	}
+		
 	global.totalKills ++
 	global.enemiesLeft --
 

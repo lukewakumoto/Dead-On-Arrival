@@ -4,7 +4,7 @@ function scr_create_casings_system(sprite){
 
 	var part = part_type_create();
 	part_type_sprite(part, sprite,0,0,0);
-	part_type_size(part,1,1,0,0);
+	part_type_size(part,0.5,0.5,0,0);
 	part_type_color1(part,c_white);
 	part_type_alpha1(part,0.3);
 	part_type_speed(part,0,0,0,0);

@@ -28,14 +28,12 @@ if (position_meeting(x + horiz_vel,y,obj_obstacle)){
 }
 
 var speed_modifier = 1
-if (player_weapon.is_firing){
-	mobility_debuff = true
+
+if (player_weapon.firing || player_weapon.reloading){
+	speed_modifier = player_weapon.weapon_weight
 }
 
-if (mobility_debuff){
-	speed_modifier = player_weapon.weapon_weight
-	time_source_start(mobility_cooldown_timer)
-}
+
 
 
 
